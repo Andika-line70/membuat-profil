@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 0% 30%, #d5c4ea 0%, transparent 40%), radial-gradient(circle at 100% 90%, #8ec5ea 0%, transparent 45%), linear-gradient(135deg, #e3e0f2, #dcefe0 55%, #d6ebf3);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+.card {
+    width: 370px;
+    min-height: 760px;
+    padding: 45px 38px 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 26px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f3f6d8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 0 0 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.identitas {
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #666;
+}
+
+.identitas p {
+    margin: 6px 0;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #14146e;
+}
+
+.tentangsaya {
+    margin: 0 auto;
+    max-width: 300px;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: normal;
+    color: #222;
+}
+
+.hobi {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.hobi li {
+    margin: 0 0 7px;
+    padding: 12px 10px;
+    background-color: rgba(200, 200, 200, 0.35);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #14146e;
+}
+
+.sosial {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0;
+    /* menyembunyikan tanda "|" */
+}
+
+.sosial a {
+    padding: 10px 14px;
+    background-color: #3524e0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+}
